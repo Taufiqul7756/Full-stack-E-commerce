@@ -1,5 +1,6 @@
 import React from "react";
 import Payment from "../../images/payment.png";
+import "../Footer/Footer.scss";
 
 const Footer = () => {
   return (
@@ -39,8 +40,10 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">LOGO</span>
-          <span className="copyright">@copyright 2023 tawfiq</span>
+          <span className="logo">Alivian</span>
+          <span className="copyright">
+            @copyright 2023 . All Rights Reserved{" "}
+          </span>
         </div>
         <div className="right">
           <img src={Payment} alt="Payment" />

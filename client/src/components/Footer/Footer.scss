@@ -1,0 +1,48 @@
+.footer {
+  margin: 100px 200px 20px 200px;
+  .top {
+    display: flex;
+    gap: 50px;
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: justify;
+      font-size: 14px;
+
+      h1 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #989393;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    .left {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        color: rgb(76, 89, 209);
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .copyright {
+        color: rgb(140, 141, 146);
+        margin-left: 20px;
+        font-size: 12px;
+      }
+    }
+
+    .right {
+      img {
+        height: 50px;
+      }
+    }
+  }
+}
