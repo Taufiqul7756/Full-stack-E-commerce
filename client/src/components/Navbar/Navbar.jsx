@@ -4,7 +4,7 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-// import usaFlag from "../../images/usa .png";
+import usaFlag from "../../images/usa .png";
 import "./Navbar.scss";
 
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            {/* <img src={usaFlag} alt=" " /> */}
+            <img src={usaFlag} alt=" " />
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
