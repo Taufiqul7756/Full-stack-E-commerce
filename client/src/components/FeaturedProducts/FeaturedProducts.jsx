@@ -7,6 +7,7 @@ const FeaturedProducts = ({ type }) => {
     {
       id: 1,
       img: "https://images.pexels.com/photos/10508388/pexels-photo-10508388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2: "https://images.pexels.com/photos/15776120/pexels-photo-15776120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "T-Shirt",
       oldPrice: 13,
       isNew: true,
@@ -15,6 +16,7 @@ const FeaturedProducts = ({ type }) => {
     {
       id: 2,
       img: "https://images.pexels.com/photos/15776120/pexels-photo-15776120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2: "https://images.pexels.com/photos/10508388/pexels-photo-10508388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "Long Sleeve T-shirt",
       oldPrice: 13,
       price: 12,
