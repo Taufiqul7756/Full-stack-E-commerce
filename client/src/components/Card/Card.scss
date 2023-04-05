@@ -1,8 +1,9 @@
 .card {
-  width: 200px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 50px;
 
   .image {
     width: 100%;
@@ -34,12 +35,14 @@
       color: teal;
       padding: 3px 5px;
       z-index: 3;
-      font-size: 500;
+      font-weight: 500;
+      font-size: 12px;
     }
   }
   h2 {
     font-size: 16px;
     font-weight: 400;
+    // color: black;
   }
   .prices {
     display: flex;
@@ -48,6 +51,8 @@
     h3 {
       font-size: 18px;
       font-weight: 500;
+      //   color: black;
+
       &:first-child {
         color: gray;
         text-decoration: line-through;
