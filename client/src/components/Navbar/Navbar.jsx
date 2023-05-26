@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
         <div className="center">
           <Link className="link" to="/">
-            ALIVION
+            ALIVIAN
           </Link>
         </div>
         <div className="right">
