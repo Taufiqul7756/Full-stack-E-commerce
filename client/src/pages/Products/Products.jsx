@@ -25,6 +25,7 @@ const Products = () => {
         : selectedSubCats.filter((item) => item !== value)
     );
   };
+  console.log(selectedSubCats);
 
   return (
     <div className="products">

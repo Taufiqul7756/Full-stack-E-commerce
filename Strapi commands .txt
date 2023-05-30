@@ -1,0 +1,14 @@
+Available commands in your project:
+
+  npm run develop
+  Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+
+  npm run start
+  Start Strapi without watch mode.
+
+
+  Display all available commands.
+
+You can start by doing:
+
+  cd E:\01. WEB development\00. My Projects\Full Stack E-commerce\server  npm run develop
