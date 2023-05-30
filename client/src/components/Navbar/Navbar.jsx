@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import SearchIcon from "@mui/icons-material/Search";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+// import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import usaFlag from "../../images/usa .png";
 import "./Navbar.scss";
 import Cart from "../Cart/Cart";
+import { useSelector } from "react-redux";
 
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const products = useSelector((state) => state.cart.products);
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -70,11 +73,12 @@ const Navbar = () => {
 
           <div className="icons">
             <SearchIcon />
-            <PersonOutlineIcon />
-            <FavoriteBorderIcon />
+            <PersonOutlineOutlinedIcon />
+            {/* <FavoriteBorderIcon /> */}
+            <FavoriteBorderOutlinedIcon />
             <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingCartOutlinedIcon />
-              <span>0</span>
+              <span>{products.length}</span>
             </div>
           </div>
         </div>
