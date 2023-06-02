@@ -6,6 +6,8 @@ Available commands in your project:
   npm run start
   Start Strapi without watch mode.
 
+ npm run start
+ Start Strapi without watch mode.
 
   Display all available commands.
 
