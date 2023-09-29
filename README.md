@@ -18,7 +18,7 @@ Welcome to our E-Commerce Website built with React, React-Redux, Redux Toolkit, 
 1. Clone the repository.
 2. Navigate to the client and server directories and run `npm install` to install dependencies.
 3. Set up your environment variables for Stripe and Strapi.
-4. Run the server using `npm start` in the server directory.
+4. Run the server using `npm run build` and then `npm run develop` in the server directory.
 5. Run the client using `npm start` in the client directory.
 
 ## Technologies Used
