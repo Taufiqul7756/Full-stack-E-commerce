@@ -1,4 +1,4 @@
-# E-Commerce Website
+# Alivian
 
 Welcome to our E-Commerce Website built with React, React-Redux, Redux Toolkit, Strapi, Stripe, Node.js, and Axios.
 
