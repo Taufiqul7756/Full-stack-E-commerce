@@ -12,3 +12,7 @@ Available commands in your project:
 You can start by doing:
 
   cd E:\01. WEB development\00. My Projects\Full Stack E-commerce\server  npm run develop
+
+ to start server :
+  npm run build
+  npm run develop
